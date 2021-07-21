@@ -1,0 +1,17 @@
+server:
+  port: 8081
+
+spring:
+  datasource:
+    username: root
+    password: w13084114050.
+    url: jdbc:mysql://localhost:3306/user?serUnicode=true&charactorEncoding=utf-8
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  security:
+    user:
+      name: user
+      password: 123
+  data:
+    rest:
+      base-path: /api
